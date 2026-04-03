@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': os.environ.get('blogdb_zhjm'),
         'USER': os.environ.get('blogdb_zhjm_user'),
         'PASSWORD': os.environ.get('4hoNTNck7UsNXARl8wtm8IIEAw31i9dw'),
-        'HOST': os.environ.get('DB_HOST'),
+        'HOST': os.environ.get('dpg-d77n6e4hg0os73cdvmgg-a'),
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
