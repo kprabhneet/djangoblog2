@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'blogapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('blogdb_zhjm'),
-        'USER': os.environ.get('blogdb_zhjm_user'),
-        'PASSWORD': os.environ.get('4hoNTNck7UsNXARl8wtm8IIEAw31i9dw'),
-        'HOST': os.environ.get('dpg-d77n6e4hg0os73cdvmgg-a'),
+        'NAME': 'blogdb_zhjm',
+        'USER': 'blogdb_zhjm_user',
+        'PASSWORD': '4hoNTNck7UsNXARl8wtm8IIEAw31i9dw',
+        'HOST': 'dpg-d77n6e4hg0os73cdvmgg-a',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
